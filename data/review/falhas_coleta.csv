@@ -1,0 +1,5 @@
+﻿url,bug type,fetch_status,fetch_error
+https://github.com/CombatCatCommunity/BugTracker/issues/24,Overlap,error,Issue não encontrada ou sem acesso
+https://github.com/lunatech-labs/lunatech-website/issues/124,Truncation,error,Issue não encontrada ou sem acesso
+https://github.com/TGX-Android/Telegram-X/issues/328,Overlap,error,"HTTP 410: {""message"":""Issues are disabled for this repo"",""documentation_url"":""https://docs.github.com/v3/issues/"",""status"":""410""}"
+https://github.com/TGX-Android/Telegram-X/issues/328,Truncation,error,"HTTP 410: {""message"":""Issues are disabled for this repo"",""documentation_url"":""https://docs.github.com/v3/issues/"",""status"":""410""}"

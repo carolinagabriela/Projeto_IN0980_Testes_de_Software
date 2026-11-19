@@ -1,0 +1,30 @@
+verificacao,ok,detalhes
+80 previsões — Binario/SVM,True,80 linhas
+URLs únicas — Binario/SVM,True,80 URLs
+Accuracy consistente — Binario/SVM,True,previsões=0.675000; CSV=0.675000
+80 previsões — Binario/XGBoost,True,80 linhas
+URLs únicas — Binario/XGBoost,True,80 URLs
+Accuracy consistente — Binario/XGBoost,True,previsões=0.687500; CSV=0.687500
+80 previsões — Multiclasse/DT,True,80 linhas
+URLs únicas — Multiclasse/DT,True,80 URLs
+Accuracy consistente — Multiclasse/DT,True,previsões=0.512500; CSV=0.512500
+80 previsões — Multiclasse/XGBoost,True,80 linhas
+URLs únicas — Multiclasse/XGBoost,True,80 URLs
+Accuracy consistente — Multiclasse/XGBoost,True,previsões=0.587500; CSV=0.587500
+Soma matriz — Binario/XGBoost,True,80
+Suporte classes — Binario/XGBoost,True,80
+Soma matriz — Multiclasse/DT,True,80
+Suporte classes — Multiclasse/DT,True,80
+Soma matriz — Multiclasse/XGBoost,True,80
+Suporte classes — Multiclasse/XGBoost,True,80
+Soma matriz — Binario/SVM,True,80
+Suporte classes — Binario/SVM,True,80
+Comparação binária: duas abordagens,True,
+Mesmo conjunto de 80 URLs para todos os modelos,True,Comparação emparelhada no teste
+Matriz reproduz previsões — Binario/SVM,True,
+Matriz reproduz previsões — Binario/XGBoost,True,
+Matriz reproduz previsões — Multiclasse/DT,True,
+Matriz reproduz previsões — Multiclasse/XGBoost,True,
+Rótulos binários coerentes com multiclasse,True,
+Comparação comum reprodutível — XGBoost_multiclasse_agrupado,True,
+Comparação comum reprodutível — XGBoost_binario_direto,True,

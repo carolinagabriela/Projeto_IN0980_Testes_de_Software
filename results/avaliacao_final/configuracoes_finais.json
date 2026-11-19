@@ -1,0 +1,46 @@
+[
+  {
+    "tarefa": "Multiclasse",
+    "modelo": "XGBoost",
+    "representacao": "Word",
+    "balanceamento": "Sem",
+    "parametros": {
+      "n_estimators": 150,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "min_child_weight": 1
+    }
+  },
+  {
+    "tarefa": "Multiclasse",
+    "modelo": "DT",
+    "representacao": "Word",
+    "balanceamento": "Pesos",
+    "parametros": {
+      "max_depth": 15,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2
+    }
+  },
+  {
+    "tarefa": "Binario",
+    "modelo": "XGBoost",
+    "representacao": "Combined",
+    "balanceamento": "Sem",
+    "parametros": {
+      "n_estimators": 100,
+      "max_depth": 2,
+      "learning_rate": 0.1,
+      "min_child_weight": 3
+    }
+  },
+  {
+    "tarefa": "Binario",
+    "modelo": "SVM",
+    "representacao": "Combined",
+    "balanceamento": "Pesos",
+    "parametros": {
+      "C": 1.0
+    }
+  }
+]

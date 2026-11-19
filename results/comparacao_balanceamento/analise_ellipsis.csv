@@ -1,0 +1,15 @@
+modelo,estrategia,total_ellipsis,acertos_ellipsis,precision_ellipsis,recall_ellipsis,f1_ellipsis
+DT,Oversampling,20,1,0.037037037037037035,0.05,0.0425531914893617
+DT,Pesos,20,3,0.10344827586206896,0.15,0.12244897959183673
+DT,Sem_Balanceamento,20,1,0.058823529411764705,0.05,0.05405405405405406
+KNN,Oversampling,20,1,0.022727272727272728,0.05,0.03125
+KNN,Sem_Balanceamento,20,0,0.0,0.0,0.0
+RF,Oversampling,20,0,0.0,0.0,0.0
+RF,Pesos,20,0,0.0,0.0,0.0
+RF,Sem_Balanceamento,20,0,0.0,0.0,0.0
+SVM,Oversampling,20,0,0.0,0.0,0.0
+SVM,Pesos,20,0,0.0,0.0,0.0
+SVM,Sem_Balanceamento,20,0,0.0,0.0,0.0
+XGBoost,Oversampling,20,0,0.0,0.0,0.0
+XGBoost,Pesos,20,0,0.0,0.0,0.0
+XGBoost,Sem_Balanceamento,20,2,0.4,0.1,0.16

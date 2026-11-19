@@ -1,0 +1,11 @@
+etapa,quantidade
+Entrada enriquecida,620
+Falhas de coleta,4
+Recuperações bem-sucedidas,616
+URLs conflitantes (distintas),23
+Ocorrências excluídas por conflitos de URL,107
+Duplicatas de URL excluídas,107
+Issues únicas após limpeza por URL,402
+Ocorrências excluídas por conflitos textuais,2
+Duplicatas textuais excluídas,2
+Dataset final para divisão,398

@@ -1,0 +1,11 @@
+tarefa,modelo,tipo_avaliacao,classe,precision,recall,f1,support,chave
+Binario,SVM,original,Overlap,0.714286,0.744681,0.729167,47,Binario | SVM
+Binario,SVM,original,Truncation/Ellipsis,0.612903,0.575758,0.593750,33,Binario | SVM
+Binario,XGBoost,original,Overlap,0.696429,0.829787,0.757282,47,Binario | XGBoost
+Binario,XGBoost,original,Truncation/Ellipsis,0.666667,0.484848,0.561404,33,Binario | XGBoost
+Multiclasse,DT,original,Ellipsis,0.000000,0.000000,0.000000,5,Multiclasse | DT
+Multiclasse,DT,original,Overlap,0.711111,0.680851,0.695652,47,Multiclasse | DT
+Multiclasse,DT,original,Truncation,0.360000,0.321429,0.339623,28,Multiclasse | DT
+Multiclasse,XGBoost,original,Ellipsis,0.000000,0.000000,0.000000,5,Multiclasse | XGBoost
+Multiclasse,XGBoost,original,Overlap,0.666667,0.765957,0.712871,47,Multiclasse | XGBoost
+Multiclasse,XGBoost,original,Truncation,0.458333,0.392857,0.423077,28,Multiclasse | XGBoost
